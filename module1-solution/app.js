@@ -14,10 +14,10 @@ var styleInputGreen = {color:'green'};
 var styleInputRed = {color:'red'};
 var styleTextboxGreen = {borderColor:'green'};
 var styleTextboxRed = {borderColor:'red'};
-
-scope.styleInput=styleInputRed;
+$scope.styleInput=styleInputRed;
 $scope.styleTextbox=styleTextboxRed;
 
+//
   $scope.countItem=function(){
     var trim = $scope.item.trim();
     var removeSemi = trim.replace(',,',',');
